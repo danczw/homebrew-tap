@@ -1,19 +1,19 @@
 class Hum < Formula
   desc "Terminal monitor for machines running coding agents"
   homepage "https://github.com/danczw/hum"
-  version "0.2.11"
+  version "0.3.0"
   license "Apache-2.0"
 
   depends_on :linux
 
   on_intel do
-    url "https://github.com/danczw/hum/releases/download/v0.2.11/hum-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "b1ba63e2d55d8fc3a8fc49b6d8e427f0d46b2cfbcbd78d6a1fd092d7be45d09c"
+    url "https://github.com/danczw/hum/releases/download/v0.3.0/hum-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "9e82990a943ed8e2502a50dd79e25559c8b7ec9339168b2d1eed886dde74cb66"
   end
 
   on_arm do
-    url "https://github.com/danczw/hum/releases/download/v0.2.11/hum-aarch64-unknown-linux-musl.tar.gz"
-    sha256 "3c77c9ee84df5fba5c2b53c595ad49c13139ffbb4cd45f368fdd67bf3b977241"
+    url "https://github.com/danczw/hum/releases/download/v0.3.0/hum-aarch64-unknown-linux-musl.tar.gz"
+    sha256 "7746ddfaed49dfcffe1c11b87d0a00ef5d1b7995f781b41b2a124c5ec10ffa51"
   end
 
   def install
